@@ -55,7 +55,7 @@ for(var a= 0; a = movieCount ;a++){
     image = image + '<img src="https://www.coffeeandcigarettes.co.uk/wp-content/uploads/2016/02/Pandemic-630-thumb-630xauto-59566.jpg">'
   }else if (movieType === 'Drama'){
      image = image + '<img src="https://cdn.designcrowd.com/blog/2017/February/movie-posters/8_600.jpg">'
-     console.log(image);
+     console.log(image)
   }else if(movieType === 'Comedy'){
     image = image + '<img src="https://i.ebayimg.com/images/g/~lsAAOSwbYZXcn-n/s-l300.jpg">'
   }else if (movieType === 'Adventure'){
