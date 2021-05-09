@@ -24,11 +24,11 @@ if (typesofMovies === "Action"){
 // the user needs to confirm he is'nt a Robot by typing a Code
 // user won't enter the website unless he enters the correct code
 // if the user write the code incorrectly, will keep asking him to enter the right one
-// if the entered code is not equal to b9@0Xc the user will be asked  again 
+// if the entered code is not equal to b@0011 the user will be asked  again 
 
-var notRobot = prompt ('Please enter this code to confirm you are not a Robot "b9@0Xc" ')
-while ( notRobot !== 'b9@0Xc'){
-  notRobot = prompt('Incorrect! Please type "b9@0Xc" ')
+var notRobot = prompt ('Please enter this code to confirm you are not a Robot "b@0011" ')
+while ( notRobot !== 'b@0011'){
+  notRobot = prompt('Incorrect! Please type "b@0011" ')
 }
 
 
@@ -49,8 +49,8 @@ var movieCount = prompt('How many movies you would like to watch?')
 //the entered number
 
 
-var image = ''
-for(var a= 0; a = movieCount ;a++){ 
+var image = '';
+for(var a= 1; a <= movieCount ;a++){ 
   if (movieType === 'Action'){
     image = image + '<img src="https://www.coffeeandcigarettes.co.uk/wp-content/uploads/2016/02/Pandemic-630-thumb-630xauto-59566.jpg">'
   }else if (movieType === 'Drama'){
