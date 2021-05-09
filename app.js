@@ -1,4 +1,8 @@
-  alert('WELCOME to MOVIE THEATRE!')
+  
+  function userWelcome (){
+  alert('WELCOME to MOVIE THEATRE!');
+  }
+userWelcome()
 
 /*var newsLetter = prompt('Would you like to get our Newsletter?')
 if (newsLetter=== "Yes"){
@@ -27,9 +31,13 @@ if (typesofMovies === "Action"){
 // if the entered code is not equal to b@0011 the user will be asked  again 
 
 var notRobot = prompt ('Please enter this code to confirm you are not a Robot "b@0011" ')
-while ( notRobot !== 'b@0011'){
+  while ( notRobot !== 'b@0011'){
   notRobot = prompt('Incorrect! Please type "b@0011" ')
 }
+
+
+
+
 
 
 // will ask the user to choose what type of movies to Watch
@@ -41,13 +49,16 @@ while ( notRobot !== 'b@0011'){
 
 
 var movieType = prompt('What type of movies do you like to watch?')
+function movieCategory (){
 while ( movieType !== 'Action' && movieType !== "Drama" && movieType !== 'Comedy' && movieType !== 'Adventure'){
   movieType = prompt('Please try again!')
 }
+}
+movieCategory()
+
 
 var movieCount = prompt('How many movies you would like to watch?')
 //the entered number
-
 
 var image = '';
 for(var a= 1; a <= movieCount ;a++){ 
@@ -63,6 +74,7 @@ for(var a= 1; a <= movieCount ;a++){
   }
 }
 document.write(image)
+
 
 
 

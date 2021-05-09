@@ -61,3 +61,16 @@ footer span{
   text-align: center;
   margin-left: 150px;
 }
+
+#intro{
+  background-color: darkred;
+  text-align: center;
+  font-size: 38px;
+}
+.list {
+text-align: left;
+background-color: grey;
+}
+.list2 {
+  background-color: black;
+}
